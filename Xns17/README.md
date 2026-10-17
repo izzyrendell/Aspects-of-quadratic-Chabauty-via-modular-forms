@@ -2,6 +2,7 @@ Open magma in a folder where you can use Zywina's Modular.
 Do the following steps in order:
   - load "input_Xns17_LMFDB.m";
   - load "compute_cusp_forms_prec1.m";
+  
 This computes the spaces of weight 2 and weight 12 modular forms of the chosen level.
 
 In the next file, change prec to the required precision. We choose prec=42;
