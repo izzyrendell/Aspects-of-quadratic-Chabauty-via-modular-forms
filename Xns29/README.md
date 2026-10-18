@@ -15,3 +15,4 @@ In the next file, change k to the required numerator valuation. We choose k=24.
 In the next file, change the prime p whose Hecke operator on H1dR you want to compute. We choose p=3.
   - load "compute_Hecke_all_cusps.m";
   - load "compute_Hodge_filt_Xns29.m";
+(Note: In the computation of the Hodge filtration, the log differentials we find are, in fact, not a basis of the full space of log differentials; that's why there is a "false" in the output. However, we do find eta in the subspace we computed.)
