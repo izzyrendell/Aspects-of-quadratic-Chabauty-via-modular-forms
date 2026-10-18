@@ -1,0 +1,16 @@
+> load "input_Xns29_LMFDB.m";
+Loading "input_Xns29_LMFDB.m"
+> load "compute_cusp_forms_prec1.m";
+Loading "compute_cusp_forms_prec1.m"
+Sanity check that our subgroup of GL(2,F_N) has the correct order for nsplit+ 
+group: true
+Finding weight 2 forms took 2.660 seconds
+Finding weight 12 forms took 1028353.500 seconds
+> save nsplit29formscomputed;
+Saving Magma state to "nsplit29formscomputed"
+> load "increase_prec.m";
+Loading "increase_prec.m"
+Increasing the q-expansion precision to 50 took 5.950 seconds
+Finding weight 2 cusp forms took 0.770 seconds
+Increasing the q-expansion precision to 50 took 3275.640 seconds
+Finding weight 12 cusp forms took 2876.680 seconds
