@@ -14,7 +14,7 @@ varphi_dR := Bk[#Bk-1]/Bk[#Bk]; // naming quotient
 
 // checking our denominator is a scalar factor of w_N(\Delta)
 delta := Delta(q);
-w_N_delta := Evaluate(delta, q^level);
+w_N_delta := level^6*Evaluate(delta, q^level);
 // print Bk[#Bk]/w_N_delta;
 
 // constructing our basis candidate
