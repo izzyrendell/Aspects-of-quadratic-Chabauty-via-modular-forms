@@ -1,7 +1,7 @@
 # Aspects-of-quadratic-Chabauty-via-modular-forms
 
 ## Description
-Code for the paper "Aspects of quadratic Chabauty via modular forms".
+Code for the paper "Aspects of quadratic Chabauty via modular forms" by Marius Leonhardt and Isabel Rendell.
 
 The code computes a basis of de Rham cohomology and the Hodge filtration required for quadratic Chabauty for modular curves using modular forms. 
 
